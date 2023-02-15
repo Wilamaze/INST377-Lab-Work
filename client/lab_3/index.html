@@ -1,5 +1,50 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orlando Aguilar's Labs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class ="wrapper">
+    <!-- wrapper -->
+    <header class="header"><h1>Orlando Aguilar's Lab for INST377</h1></header>
+    <div class="container">
+        <!-- container -->
+      <div class="left_section box">
+        <!-- left inputs -->
+        <h2>Album Names</h2>
+        <ol class="subtitle box">
+          <li>Recovery</li>
+          <li>Views</li>
+          <li>BALLADS 1</li>
+          <li>4:44</li>
+          <li>good kid, m.A.A.d city</li>
+        </ol>
+      </div>
+      <div class="right_section box"> <!-- right side -->
+        <h2>Image Carousel</h2>
+      <div class="carousel">
+          <button class="prev">prev</button>
+          <div class="slides"> <!-- images box -->
+            <div class="carousel_item" visible><img src='images/buffalochickenpizza.jpg' alt="An image of buffalo chicken pizza"/></div>
+            <div class="carousel_item" hidden><img src='images/cheesepizza.jpg' alt="An image of cheese pizza"/></div>
+            <div class="carousel_item" hidden><img src='images/hawaiian.jpg' alt="An image of hawaiian pizza"/></div>
+            <div class="carousel_item" hidden><img src='images/pepperoni.jpg' alt="An image of pepperoni pizza"/></div>
+          </div>
+          <button class="next">next</button>
+      </div>
+    <div class="subtitle box">
+    <!-- description box -->
+    The images are my four favorite types of pizza. I prefer pepperoni the most.
+    </div>
+    </div>
+  </div>
+    <footer class="footer">
+        <a href="http://github.com/Wilamaze/" target="_blank" rel="noopener noreferrer">UMD INST377 Github Org</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
