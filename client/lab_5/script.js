@@ -1,4 +1,4 @@
-/* A quick filter that will return something based on a matching input */
+/* A quick filter that will return something based on a matching input */ //commit
 function filterList(list, query) {
   return list.filter((item) => {
     const lowerCaseName = item.name.toLowerCase();
