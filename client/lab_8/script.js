@@ -96,8 +96,8 @@
       if (storedList?.length > 0) {
         generateListButton.classList.remove('hidden');
     }
-      loadAnimation.style.display = 'none';
-      // console.table(storedList); 
+      loadAnimation.style.display = 'none':
+      // console.table(storedList) 
     });
   
     generateListButton.addEventListener('click', (event) => {
